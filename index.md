@@ -2,18 +2,15 @@
 layout: default
 title: Home
 ---
-# {{ site.title }}
 
-{{ site.description }}
-{: .usa-intro}
-
-This template is set up with USWDS core CSS and JS files from [CDNJS](https://cdnjs.com/libraries/uswds).
-
-- Last updated: September 12, 2021
-- Version: 2.12.1
-- More information: [How to use USWDS](https://designsystem.digital.gov/how-to-use-uswds/)
-
-[Use template on GitHub](https://github.com/Bixal/uswds-template){: .usa-button .usa-button--big}
-{: .margin-y-6}
-
-Or [try it out first on CodePen](https://codepen.io/pglevy/pen/abBgJbe).
+<ul class="usa-button-group usa-button-group--segmented">
+  <li class="usa-button-group__item">
+    <button class="usa-button">Make less awesome</button>
+  </li>
+  <li class="usa-button-group__item">
+    <button class="usa-button usa-button--outline">Reset awesomeness</button>
+  </li>
+  <li class="usa-button-group__item">
+    <button class="usa-button usa-button--outline">Make more awesome</button>
+  </li>
+</ul>
